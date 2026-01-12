@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  base: "./",   // ✅ Ensures assets load correctly on Netlify
+  base: "./",  // ✅ This fixes blank page on Netlify
   plugins: [
     react(),
     tailwindcss(),
